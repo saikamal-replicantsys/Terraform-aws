@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "dataset_bucket" {
-  bucket = "replisense-datasets-prod"
+  bucket = "replisense-datasets"
   force_destroy = true
 
   tags = {
